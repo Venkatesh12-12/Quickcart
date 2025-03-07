@@ -1,9 +1,9 @@
 import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import Banner from "@/components/Banner";
 
-const Banner = () => {
+
+const BannerComponent = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between md:pl-20 py-14 md:py-0 bg-[#E6E9F2] my-16 rounded-xl overflow-hidden">
       <Image
@@ -37,4 +37,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default BannerComponent;
